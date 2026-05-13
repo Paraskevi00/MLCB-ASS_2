@@ -35,4 +35,4 @@ results/
 2. `notebooks/02_rnCV_comparison.ipynb`
 3. `notebooks/03_final_model_shap.ipynb`
 
-For quick testing, reduce `N_ROUNDS`, `N_ITER`, or the estimator list in notebook 02. For final submission, use `R=10`, `N=5`, `K=3`.
+
