@@ -1,6 +1,6 @@
-"""Preprocessing and model registry for Assignment #2.
+"""Preprocessing 
 
-Important design choice: this module does NOT one-hot encode, impute, or scale
+This module doesn't one-hot encode, impute, or scale
 before cross-validation. It only defines raw column groups and functions that
 build sklearn Pipeline/ColumnTransformer objects. The transformers are fitted
 inside each CV fold by sklearn, preventing data leakage.

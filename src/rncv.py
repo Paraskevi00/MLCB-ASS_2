@@ -1,4 +1,4 @@
-"""Leakage-safe repeated nested cross-validation for Assignment #2.
+"""Repeated nested cross-validation.
 
 The key invariant is simple: outer and inner CV receive raw X only. Every
 preprocessing/feature-selection operation is contained inside an sklearn
